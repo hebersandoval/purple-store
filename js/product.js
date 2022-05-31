@@ -7,7 +7,7 @@ lpTag.identities.push(identityFn);
 function identityFn(callback) {
     console.log('Calling identity fn');
     callback({
-        iss: 'https://purple-store.netlify.app',
+        iss: 'https://purplestore.ga',
         acr: 'loa1',
         sub: '1234567890',
     });
