@@ -2,7 +2,6 @@
  * LivePerson
  */
 let pageTitle = document.getElementById('page-title').innerHTML;
-let sku = document.getElementById('sku').innerHTML;
 
 lpTag.sdes = lpTag.sdes || [];
 lpTag.sdes.push([
@@ -16,7 +15,7 @@ lpTag.sdes.push([
                 product: {
                     name: 'Purple Chair', // Product name
                     category: 'Furniture', // Product Category Name
-                    sku: sku, // Product SKU or unique identifier
+                    sku: 'PURPLE-123', // Product SKU or unique identifier
                     price: 340.0, // Single product price
                 },
                 quantity: 42, // Number of products
